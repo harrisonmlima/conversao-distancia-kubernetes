@@ -15,11 +15,11 @@ def index():
         valor = request.form.get('valorRef')
 
         if selecao == '1':
-            resultado = float(valor) / 1000
+            resultado = float(valor) * 1.60934
             unidade = "quilômetros"
         else:
-            resultado = float(valor) * 1000
-            unidade = "metros"
+            resultado = float(valor) / 1.60934
+            unidade = "milhas"
             
         return render_template('index.html', conteudo={'unidade': unidade, 'valor': resultado})
 
