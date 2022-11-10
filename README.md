@@ -1,7 +1,7 @@
 # Projeto conversão de distancia
 
 ### Sobre o projeto
-O projeto conversão de distancia é um projeto desenvolvido em NodeJS. O projeto tem como objetivo ser um exemplo para a criação de ambiente com containers usando NodeJS.
+O projeto conversão de distancia é um projeto desenvolvido em Python. O projeto tem como objetivo ser um exemplo para a criação de ambiente com containers usando Python.
 
 ### Observações do projeto
 A aplicação é exposta usando a porta 5000
@@ -15,7 +15,7 @@ Executar kubectl apply -f k8s/
 # Project distance converter
 
 ### About the project
-The project distance converter is a project developed in NodeJS. The project goal is to be a example to environment creation with containers using NodeJS
+The project distance converter is a project developed in Python. The project goal is to be a example to environment creation with containers using Python.
 
 ### Project observation
 The application runs using PORT 5000
